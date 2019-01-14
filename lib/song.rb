@@ -27,6 +27,8 @@ class Song
   
   def genre_count
     hash = {}
+    if hash[@@genres]
+      hash[@@genres] << 
     hash[@@genres] = []
     
   end
