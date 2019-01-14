@@ -27,6 +27,6 @@ class Song
   
   def genre_count
     hash = {}
-    hash[@genre] = @@count
+    hash[@genre]
   end
 end
